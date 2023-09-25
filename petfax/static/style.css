@@ -1,5 +1,25 @@
 body {
     font-family: 'Sansita Swashed', cursive;
-    background-color: slategray;
+    background-color: #06AED5;
     margin: 0;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    background-color:#E2DBBE ;
+}
+
+img {
+    height: auto;
+    width: 60vw;
+    border-radius: 50%;
+    border: 5px solid #e0c246;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px #074452;
+    
 }

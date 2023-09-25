@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
     <title>Submit Fun Facts</title>
 </head>
 <body>
     Feel free to share your fun fact with us!
-
+    <div class="facts">
     <form action="/action_page.php">
         <label for="submitter">Name:</label>
         <input type="text" id="name" name="name"><br><br>
         <label for="new fact">Fun Fact:</label>
         <input type="text" id="fact" name="fact"><br><br>
         <input type="submit" value="Submit">
-        <input type="submit" >
+        
       </form>
       <a href="/pets">Back</a>
+    </div>
 </body>
 </html>
