@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+   <h1>Welcome to PetFax!</h1> 
+        <div class="pets-cont">
+            {% for pet in pets %}
+                <div class="pet">   
+                    <h2> <a href="/pets/{{ pet.pet_id }}"> {{ pet.pet_name }} </a></h2>
+                    <img src="{{ pet.pet_photo }}" alt="Photo of pet"/>
+                {% endfor %}
+                </div>
+        </div>
+    </div>
+</body>
+</html>

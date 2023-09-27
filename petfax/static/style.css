@@ -3,6 +3,14 @@ body {
     background-color: #06AED5;
     margin: 0;
 }
+.container {
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em 3em 3em 3em;
+    border-radius: 1em;
+    background: sandybrown;
+    box-shadow: 2px 2px #ddd;
+}
 
 .facts {
     display: flex;
@@ -16,10 +24,21 @@ body {
 
 img {
     height: auto;
-    width: 60vw;
-    border-radius: 50%;
+    width: 30vw;
+    border-radius: 25%;
     border: 5px solid #e0c246;
     margin: 1rem;
     box-shadow: 5px 5px 5px #074452;
     
+}
+.pets-cont{
+    background-color: peachpuff ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    margin: 5em 0;
+}
+.pet {
+    flex: 1;
+    margin: 0.5em;
 }
